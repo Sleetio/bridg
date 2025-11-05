@@ -1,0 +1,11 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Frame-Options", "value": "ALLOWALL" },
+        { "key": "Content-Security-Policy", "value": "frame-ancestors https://*.bolt.new https://bolt.new https://*.vercel.app https://*.yourdomain.com *;" }
+      ]
+    }
+  ]
+}
